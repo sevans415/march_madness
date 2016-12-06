@@ -16,7 +16,8 @@ import march_madness_models as mmm
 
 # note: if we pass the include_scoring_dif flag - the y_value returned is the score difference in the game
 ### PRIMAR
-def generate_multiple_years_of_games(years, seed_list_arr, 
+def generate_multiple_years_of_games(years, 
+                                     seed_list_arr, 
                                      slot_list_arr, 
                                      tourney_data_arr, 
                                      predictors, 
